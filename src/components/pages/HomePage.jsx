@@ -39,7 +39,7 @@ const HomePage = () => {
       Whether you like peaceful destinations or vibrant landscapes, we have offers for you.
     </p>
 
-    <div className='row py-5'>
+    <div className='row pt-5 pb-3'>
 
        {
          dataList?.attractionsData?.map((item,index) =>
@@ -56,8 +56,49 @@ const HomePage = () => {
 
     </div>
 
+    <div>
+      <button className='fw-bold btn btn-success px-5 py-2'>See More</button>
+    </div>
+
+  </section >
+
+  
+  {/* Our Strength Section */}
+
+  <section className='py-5 text-center container'>
+
+  <h1 className='mb-3' style={{fontStyle: "italic", fontWeight: "bold"}}>Our Strength</h1>
+
+   <div className='row pt-5 pb-3'>
+
+       {
+         dataList?.ourStrength?.map((item,index) =>
+
+          <div className='mb-3 our-strength-grid' style={{cursor: "pointer"}} key={index}>
+
+            <p className='my-3 fw-bold'>{item}</p>
+            
+          </div>
+        )
+
+       }
+
+    </div>
+
+
   </section>
-</>
+
+
+  {/* Package Section */}
+
+  <section className='py-5 text-center container'>
+
+     <h1 className='mb-3' style={{fontStyle: "italic", fontWeight: "bold"}}>Our Package Type</h1>
+
+
+  </section>
+
+  </>
     );
 };
 

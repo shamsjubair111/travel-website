@@ -43,7 +43,8 @@ const dataList = {
         imageUrl: "https://www.bengaltours.com/wp-content/uploads/2018/02/B.T-01-642.jpg"
         }
 
-        ]
+        ],
+        ourStrength: ["Cruisers Rental Service", "Meetings, Incentives, Conferences, and Exhibitions (MICE)", "Guide and Interpreter Service", "Research Work and Documentary", "Tailor Made Package Tour", "CSR Support"]
     
         }
 
